@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/benschw/srv-lb/dns"
-	"github.com/benschw/srv-lb/lb"
-	"github.com/benschw/srv-lb/strategy/random"
+	"github.com/pratikju/srv-lb/dns"
+	"github.com/pratikju/srv-lb/lb"
+	"github.com/pratikju/srv-lb/strategy/random"
 	"github.com/stretchr/testify/assert"
 )
 

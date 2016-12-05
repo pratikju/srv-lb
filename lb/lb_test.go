@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/benschw/srv-lb/dns"
+	"github.com/pratikju/srv-lb/dns"
 )
 
 type ByConnectionString []dns.Address

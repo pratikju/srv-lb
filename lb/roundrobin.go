@@ -6,7 +6,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/benschw/srv-lb/dns"
+	"github.com/pratikju/srv-lb/dns"
 )
 
 const RoundRobinStrategy StrategyType = "round-robin"

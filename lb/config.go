@@ -3,7 +3,7 @@ package lb
 import (
 	"os"
 
-	"github.com/benschw/srv-lb/dns"
+	"github.com/pratikju/srv-lb/dns"
 )
 
 type Config struct {

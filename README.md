@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/benschw/srv-lb.svg?branch=master)](https://travis-ci.org/benschw/srv-lb)
-[![GoDoc](http://godoc.org/github.com/benschw/srv-lb?status.png)](http://godoc.org/github.com/benschw/srv-lb/lb)
+[![Build Status](https://travis-ci.org/pratikju/srv-lb.svg?branch=master)](https://travis-ci.org/pratikju/srv-lb)
+[![GoDoc](http://godoc.org/github.com/pratikju/srv-lb?status.png)](http://godoc.org/github.com/pratikju/srv-lb/lb)
 
 
 # SRV Record Load Balancer library for Go
@@ -98,7 +98,7 @@ tests are run against some fixture dns entries I set up on fligl.io (`dig foo.se
 `srv-lb` leverages go's `init()` function to allow you to use your own
 load balancer strategy without forking the core library. Below is a walkthrough
 of how to create your own "FancyLB" strategy. For a complete example,
-[see how the "random" strategy is implemented](https://github.com/benschw/srv-lb/blob/master/strategy/random/random.go).
+[see how the "random" strategy is implemented](https://github.com/pratikju/srv-lb/blob/master/strategy/random/random.go).
 
 Of course, if your strategy would be generally usefull I would lolve a pull request!
 
@@ -132,4 +132,4 @@ And then specify it when constructing your load balancer
 
 ## Projects Using SRV-LB
 
-- [chinchilla](https://github.com/benschw/chinchilla) - a rabbitmq to REST bridge
+- [chinchilla](https://github.com/pratikju/chinchilla) - a rabbitmq to REST bridge

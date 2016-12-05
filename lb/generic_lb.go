@@ -1,6 +1,6 @@
 package lb
 
-import "github.com/benschw/srv-lb/dns"
+import "github.com/pratikju/srv-lb/dns"
 
 type StrategyType string
 type StrategyFactory func(dns.Lookup) GenericLoadBalancer

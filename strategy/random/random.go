@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/benschw/srv-lb/dns"
-	"github.com/benschw/srv-lb/lb"
+	"github.com/pratikju/srv-lb/dns"
+	"github.com/pratikju/srv-lb/lb"
 )
 
 const RandomStrategy lb.StrategyType = "random"

@@ -1,6 +1,6 @@
 package lb
 
-import "github.com/benschw/srv-lb/dns"
+import "github.com/pratikju/srv-lb/dns"
 
 // Load balancer that can service request for a configured SRV record address
 type LoadBalancer interface {
